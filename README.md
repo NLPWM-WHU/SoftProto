@@ -17,7 +17,9 @@ CUDA_VISIBLE_DEVICES=0 python train_softproto.py --dataset res14 --lm external -
 
  Or you can run the shell script to get all results of a certain dataset.
 
-```sh res14_run.sh```
+```
+sh res14_run.sh
+```
 
 ## 3. Results
  Since we randomly split the training/validation datasets in the running process, the experimental results could vary on different machines. But if you run the shell script and collect the results of all settings, you'll find that the improvements brought by SoftProto are rather stable.
