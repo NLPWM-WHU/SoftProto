@@ -29,14 +29,14 @@ sh res14_run.sh
  ![image](https://github.com/NLPWM-WHU/SoftProto/blob/master/result.jpg)
 
 ## 4. Data Details
- A separate set consists the following files:
+ A separate set consists of the following files:
 
 * **sentence.txt** contains the tokenized review sentences.
 * **target.txt** contains the aspect term tag sequences. **0=O, 1=B, 2=I**.
 * **internal\_forward/backward\_top10.txt** contains the top-10 oracle words in **SoftProtoI**.
 * **external\_forward/backward\_top10.txt** contains the top-10 oracle words in **SoftProtoE**.
 * **bert\_base\_top10.txt** contains the top-10 oracle words in **SoftProtoB (BASE)**.
-* **bert\_pt\_top10.txt** contains the top-10 oracle words in **SoftProtoB (pt)**.
+* **bert\_pt\_top10.txt** contains the top-10 oracle words in **SoftProtoB (PT)**.
 
 ## 5. Generation of Oracle Words
  For generating oracle words using LM/MLM, we will release a script in a few days.
@@ -46,7 +46,7 @@ sh res14_run.sh
 
 
 ```
-@inproceedings{chen2020racl,
+@inproceedings{chen2020softproto,
   author    = {Zhuang Chen and Tieyun Qian},
   title     = {Enhancing Aspect Term Extraction with Soft Prototypes},
   booktitle = {EMNLP},
