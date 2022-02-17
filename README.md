@@ -1,14 +1,3 @@
-# 2022.02.07 Update
-公开源码是为了促进领域内研究发展，而不是作为被抄袭灌水的原料。
-
-最近忙于撰写博士毕业论文，发现已有同行将本文像素级翻译变换后发表于知网，甚至连说明图都未改动，造成严重负面影响。
-
-知网链接：
-“[徐福,黄贤英,蒋兴渝,彭竞瑶.用于方面提取的软原型增强自适应损失模型.计算机应用研究,2021,38(11):3310-3315.](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2021&filename=JSYJ202111019&uniplatform=NZKPT&v=OQ3op_X26XhZ8YyGDu8DJDzTgRCF85RbiAYMK0-3Sw3SYt3ceXUZQ_RRLmELmC1f)”
-
-本人保留一切追究责任的权利。
-
-
 # SoftProto
  Code and datasets of our paper "[Enhancing Aspect Term Extraction with Soft Prototypes](https://www.aclweb.org/anthology/2020.emnlp-main.164.pdf)" accepted by EMNLP 2020.
 
